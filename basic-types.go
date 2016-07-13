@@ -11,7 +11,7 @@ var (
 	// Defined uint64 type
 	MaxInt uint64 = 1<<64 - 1
 	// Defined Complex and calculated sqrt using cmplx
-	z complex128 = cmplx.Sqrt(-5 + 12i)
+	z complex128 = cmplx.Sqrt(25 + 12i)
 )
 
 func main() {
